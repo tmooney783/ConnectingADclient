@@ -51,7 +51,7 @@ Set lease duration: <br/>
 <img src="https://i.imgur.com/q1ptPO3.png" height="80%" width="80%"/>
 <br />
 <br />
-Spcified the domain controllers ip address to be used a default gateway: <br/>
+Specified the domain controllers ip address to be used as a default gateway: <br/>
 <img src="https://i.imgur.com/k7fsG8N.png" height="80%" width="80%"/>
 <br />
 <br />
