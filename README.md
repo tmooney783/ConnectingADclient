@@ -59,8 +59,8 @@ Specified the domain controller as the DNS server: <br/>
 <img src="https://i.imgur.com/a1njk4N.png" height="80%" width="80%"/>
 <br />
 <br />
-When trying to add a win 10 client, it wasn't connecting to the domain to use the dhcp server, so I had to go
-back and enable the router options under server options in the dhcp tool panel and specify this ip address: <br/>
+When trying to add a Windows 10 client, it wasn't connecting to the domain to use the dhcp server, so I had to go
+back and enable the router options under server options in the dhcp tool panel and specify the ip address: <br/>
 <img src="https://i.imgur.com/22MY4Yo.png" height="80%" width="80%"/>
 <br />
 <br />
