@@ -1,9 +1,12 @@
-<h1>Connecting a client to an AD domain</h1>
+<h1>Connecting a Windows 10 client to a Windows Server AD domain</h1>
+
+<h2>In this project I learned the basics of using Active Directory to set up a DHCP and DNS server on Windows Server 2022 and connecting a Windows 10 client to use </h2>
 
 <h2>Enivronments used:</h2>
 
 - Oracle VirtualBox
 - Windows Server 2022
+- Windows 10
 
 <h2>Project walk-through</h2>
 
@@ -52,31 +55,16 @@ Spcified the domain controllers ip address to be used a default gateway: <br/>
 <img src="https://i.imgur.com/jdjOFPk.png" height="80%" width="80%"/>
 <br />
 <br />
-Specified the domainc controller as the DNS server: <br/>
+Specified the domain controller as the DNS server: <br/>
 <img src="https://i.imgur.com/jdjOFPk.png" height="80%" width="80%"/>
 <br />
 <br />
-: <br/>
+When trying to add a win 10 client, it wasn't connecting to the domain to use the dhcp server, so I had to go
+back and enable the router options under server options in the dhcp tool panel and specify this ip address: <br/>
 <img src="https://i.imgur.com/jdjOFPk.png" height="80%" width="80%"/>
 <br />
 <br />
-: <br/>
-<img src="https://i.imgur.com/jdjOFPk.png" height="80%" width="80%"/>
-<br />
-<br />
-: <br/>
-<img src="https://i.imgur.com/jdjOFPk.png" height="80%" width="80%"/>
-<br />
-<br />
-: <br/>
-<img src="https://i.imgur.com/jdjOFPk.png" height="80%" width="80%"/>
-<br />
-<br />
-: <br/>
-<img src="https://i.imgur.com/jdjOFPk.png" height="80%" width="80%"/>
-<br />
-<br />
-: <br/>
+Renamed the Windows 10 client and joined it to the domain using an admin account: <br/>
 <img src="https://i.imgur.com/jdjOFPk.png" height="80%" width="80%"/>
 <br />
 <br />
