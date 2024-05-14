@@ -1,4 +1,4 @@
-<h1>Connecting a client to a AD domain</h1>
+<h1>Connecting a client to an AD domain</h1>
 
 <h2>Enivornments used:</h2>
 
