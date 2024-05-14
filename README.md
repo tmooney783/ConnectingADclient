@@ -2,7 +2,7 @@
 
 <h2>In this project I learned the basics of using Active Directory to set up a DHCP and DNS server on Windows Server 2022 and connecting a Windows 10 client </h2>
 
-<h2>Enivronments used:</h2>
+<h2>Environments used:</h2>
 
 - Oracle VirtualBox
 - Windows Server 2022
